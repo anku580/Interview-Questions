@@ -49,3 +49,44 @@ console.log(typeof booleanVar) // => 'boolean'
 
 console.log(typeof true) // => 'boolean'
 ```
+
+### ***Question:**What is the difference between == and ===?
+### **Answer:**
+```js
+== will look for the data only while === will also check for data types
+// ==
+let id= '100';
+if(id == 100){
+  do this
+}
+else{
+  do that
+} //if condition will run because 100=100 is considered
+
+// ===
+let id= '100';
+if(id == 100){
+  do this
+}
+else{
+  do that
+} //if condition is false so the else condition get accessed as '100' is string 100 is not i.e.'100'!==100
+```
+### **Question:**How do you select elements for DOM manipulation?
+### **Answer:**  
+```js
+//  Single element selector
+const items=document.getElementById('idName');
+console.log(items); //this will give the item whose idName is specified as above
+
+// Multiple Element Selector
+
+// Query Selector
+const items= document.querySelector('tagname');
+console.log(items); //this will but select only the first child under the tag
+
+
+// Query Selector All
+const items= document.querySelectorAll('className');
+console.log(items); //this will give all the items inside that class name
+```
