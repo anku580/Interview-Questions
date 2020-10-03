@@ -32,3 +32,6 @@ Pull requests should include the following:
 
 - C
 - CPP
+- Java
+- JavaScript
+- Python
