@@ -61,7 +61,7 @@ if(id == 100){
 }
 else{
   do that
-} //if condition will run because 100=100 is considered
+} //if condition will run because 100=100 is considered,== doesnt look the data type though '100' is string
 
 // ===
 let id= '100';
@@ -80,13 +80,12 @@ const items=document.getElementById('idName');
 console.log(items); //this will give the item whose idName is specified as above
 
 // Multiple Element Selector
-
 // Query Selector
 const items= document.querySelector('tagname');
 console.log(items); //this will but select only the first child under the tag
-
 
 // Query Selector All
 const items= document.querySelectorAll('className');
 console.log(items); //this will give all the items inside that class name
 ```
+
